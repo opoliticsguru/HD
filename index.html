@@ -91,38 +91,34 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Registered Voters</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_RegVoters_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_RegVoters_1'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_RegVoters_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_RegVoters_1'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Ballots Cast</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_BallotsCast_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_BallotsCast_1'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_BallotsCast_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_BallotsCast_1'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Voter Turnout</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_VoterTurnout'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_VoterTurnout'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_VoterTurnout'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_VoterTurnout'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Issue 1 Margin</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_Issue1Margin'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_Issue1Margin'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_Issue1Margin'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_Issue1Margin'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Issue 2 Margin</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_Issue2Margin'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_Issue2Margin'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_Issue2Margin'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_Issue2Margin'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Issue 1-2 Swing</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_RelativeMargin'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_RelativeMargin'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">Current Representative</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_CurrentRep'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_CurrentRep'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">Current Rep</th>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_CurrentRep'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_CurrentRep'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
         function style_Issue12Swing_1_0(feature) {
-            switch(String(feature.properties['q2wHide_20231107 Precinct Results — HD_Relative Color'])) {
+            switch(String(feature.properties['q2wHide_20231107 Precinct Results_official — HD_Relative Color'])) {
                 case '#FF7518':
                     return {
                 pane: 'pane_Issue12Swing_1',
@@ -319,38 +315,38 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Registered Voters</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_RegVoters_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_RegVoters_1'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_RegVoters_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_RegVoters_1'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Ballots Cast</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_BallotsCast_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_BallotsCast_1'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_BallotsCast_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_BallotsCast_1'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Voter Turnout</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_VoterTurnout'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_VoterTurnout'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_VoterTurnout'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_VoterTurnout'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Yes</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_Issue2Yes_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_Issue2Yes_1'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_Issue2Yes_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_Issue2Yes_1'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">No</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_Issue2No_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_Issue2No_1'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_Issue2No_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_Issue2No_1'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Margin</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_Issue2Margin'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_Issue2Margin'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_Issue2Margin'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_Issue2Margin'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Current Representative</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_CurrentRep'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_CurrentRep'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">Current Rep</th>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_CurrentRep'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_CurrentRep'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
         function style_Issue2_2_0(feature) {
-            switch(String(feature.properties['q2wHide_20231107 Precinct Results — HD_Issue2Color'])) {
+            switch(String(feature.properties['q2wHide_20231107 Precinct Results_official — HD_Issue2Color'])) {
                 case '#2B2457':
                     return {
                 pane: 'pane_Issue2_2',
@@ -547,38 +543,38 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Registered Voters</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_RegVoters_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_RegVoters_1'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_RegVoters_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_RegVoters_1'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Ballots Cast</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_BallotsCast_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_BallotsCast_1'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_BallotsCast_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_BallotsCast_1'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Voter Turnout</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_VoterTurnout'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_VoterTurnout'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_VoterTurnout'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_VoterTurnout'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Yes</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_Issue1Yes_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_Issue1Yes_1'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_Issue1Yes_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_Issue1Yes_1'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">No</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_Issue1No_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_Issue1No_1'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_Issue1No_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_Issue1No_1'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Margin</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_Issue1Margin'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_Issue1Margin'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_Issue1Margin'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_Issue1Margin'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Current Representative</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_CurrentRep'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_CurrentRep'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">Current Rep</th>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_CurrentRep'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_CurrentRep'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
         function style_Issue1_3_0(feature) {
-            switch(String(feature.properties['q2wHide_20231107 Precinct Results — HD_Issue1Color'])) {
+            switch(String(feature.properties['q2wHide_20231107 Precinct Results_official — HD_Issue1Color'])) {
                 case '#2B2457':
                     return {
                 pane: 'pane_Issue1_3',
@@ -775,26 +771,26 @@
                     </tr>\
                     <tr>\
                         <th scope="row">Registered Voters</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_RegVoters_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_RegVoters_1'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_RegVoters_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_RegVoters_1'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Ballots Cast</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_BallotsCast_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_BallotsCast_1'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_BallotsCast_1'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_BallotsCast_1'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Voter Turnout</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_VoterTurnout'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_VoterTurnout'].toLocaleString()) : '') + '</td>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_VoterTurnout'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_VoterTurnout'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Current Representative</th>\
-                        <td>' + (feature.properties['20231107 Precinct Results — HD_CurrentRep'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results — HD_CurrentRep'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">Current Rep</th>\
+                        <td>' + (feature.properties['20231107 Precinct Results_official — HD_CurrentRep'] !== null ? autolinker.link(feature.properties['20231107 Precinct Results_official — HD_CurrentRep'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
         function style_Turnout_4_0(feature) {
-            switch(String(feature.properties['q2wHide_20231107 Precinct Results — HD_TurnoutColor'])) {
+            switch(String(feature.properties['q2wHide_20231107 Precinct Results_official — HD_TurnoutColor'])) {
                 case '#fafa33':
                     return {
                 pane: 'pane_Turnout_4',
@@ -990,20 +986,14 @@
                 this._div = L.DomUtil.create('div',
                 'leaflet-control abstract');
                 this._div.id = 'abstract'
-                    this._div.setAttribute("onmouseenter", "abstract.show()");
-                    this._div.setAttribute("onmouseleave", "abstract.hide()");
-                    this.hide();
+
+                    abstract.show();
                     return this._div;
                 };
-                abstract.hide = function () {
-                    this._div.classList.remove("abstractUncollapsed");
-                    this._div.classList.add("abstract");
-                    this._div.innerHTML = 'i'
-                }
                 abstract.show = function () {
                     this._div.classList.remove("abstract");
                     this._div.classList.add("abstractUncollapsed");
-                    this._div.innerHTML = '-Sources: County Boards of Elections & Ohio Secretary of State<br />-Results are a mixture of Final Unofficial Results & Final Official Results<br />-Note: Some districts are combined due to unavailablity of precinct-level results<br />-Follow: @OPoliticsGuru';
+                    this._div.innerHTML = '-Sources: Ohio Secretary of State, Medina County Board of Elections<br />-Follow: @OPoliticsGuru';
             };
             abstract.addTo(map);
         var baseMaps = {};
